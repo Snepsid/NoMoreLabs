@@ -58,7 +58,7 @@ for nft in nft_data['collection_items']:
 nft_rankings.sort(key=lambda x: x[1], reverse=True)  # Sort by total rarity score (highest first)
 
 # Step 7: Save Rarity Rankings to a File
-txt_filename = r"rarity-rankings.txt"
+txt_filename = r"Comrade-rarity.txt"
 
 with open(txt_filename, 'w') as txt_file:
     starting_rank = 5  # Start rankings from #5
@@ -71,7 +71,7 @@ with open(txt_filename, 'w') as txt_file:
 nft_rankings.sort(key=lambda x: int(x[0]))  # Re-sort by item number (ascending) for display purposes
 
 # Step 9: Calculate and Print Rarity Scores for Traits
-trait_scores_filename = r"rarity-scores-for-traits.txt"
+trait_scores_filename = r"Comrade-trait-scores.txt"
 
 with open(trait_scores_filename, 'w') as trait_scores_file:
     print("\n-------------------------------------------------------------\nRarity Scores for Traits (sorted by most rare to least rare):\n-------------------------------------------------------------")
@@ -94,6 +94,4 @@ with open(trait_scores_filename, 'w') as trait_scores_file:
 
 print(f"\nRarity scores for traits have been saved to: {trait_scores_filename}")
 
-print("\nThe terminal output of this script is tracked as a text file here: https://github.com/nakamingos/nakamingos/blob/main/rarity/rarity-statistics.txt")
-print("\nThe full rankings text file that this script produces is tracked here: https://github.com/nakamingos/nakamingos/blob/main/rarity/rarity-rankings.txt")
 print("\ns/o to chopperdaddy: https://github.com/chopperdaddy Ethereum Phunks: https://ethereumphunks.com VirtualAlaska: https://github.com/VirtualAlaska and mfpurrs: https://x.com/mfpurrs")
