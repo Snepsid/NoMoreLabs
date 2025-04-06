@@ -15,7 +15,7 @@ This Python script calculates the rarity of traits for a collection of NFTs and 
 
 ## Outputs
 
-### 1. `rarity-rankings.txt`
+### 1. `Comrade-rarity.txt`
 This file contains the ranked list of NFTs based on their total rarity scores. Each line includes:
 - The rank of the NFT (starting from #5).
 - The NFT's item number.
@@ -28,7 +28,7 @@ Rank 00006 - Comrade #00010 | Rarest trait = Eyes - Visoor Pink
 Rank 00007 - Comrade #00005 | Rarest trait = Eyes - Block Vision ETHS Heart
 ```
 
-### 2. `rarity-scores-for-traits.txt`
+### 2. `Comrade-trait-scores.txt`
 This file contains the ranked list of traits based on their rarity scores. Each line includes:
 - The rank of the trait (starting from #1).
 - The trait type and value.
@@ -45,7 +45,7 @@ Rank 00003 - Type - Scriboor | rarity score = 3272.67 | frequency = 3 / 9818
 ## How to Use
 
 1. **Prepare the Metadata File**:
-   - Ensure the metadata file is named `combined.json` and is located in the same directory as the script.
+   - Ensure the metadata file is named `Comrade-metadata.json` and is located in the same directory as the script.
    - The metadata file should follow the structure:
      ```json
      {
@@ -65,13 +65,13 @@ Rank 00003 - Type - Scriboor | rarity score = 3272.67 | frequency = 3 / 9818
 2. **Run the Script**:
    - Execute the script using Python:
      ```bash
-     python calculateComradeRarity.py
+     python Comrade-calculator.py
      ```
 
 3. **View the Outputs**:
    - The script generates two output files:
-     - `rarity-rankings.txt`: Contains the NFT rankings.
-     - `rarity-scores-for-traits.txt`: Contains the trait rarity scores.
+     - `Comrade-rarity.txt`: Contains the NFT rankings.
+     - `Comrade-trait-scores.txt`: Contains the trait rarity scores.
 
 ## Notes
 
