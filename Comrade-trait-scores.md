@@ -67,7 +67,7 @@ Rank 00066 - Eyes - Death Cross Mask | rarity score = 144.38 | frequency = 68 / 
 Rank 00067 - Type - Black and White Zombie | rarity score = 144.38 | frequency = 68 / 9818
 Rank 00068 - Head - Weird Sexy Alien Lady | rarity score = 144.38 | frequency = 68 / 9818
 Rank 00069 - Mouth - Chewy 8800+ | rarity score = 140.26 | frequency = 70 / 9818
-Rank 00070 - Mouth - Ménage à neuf | rarity score = 140.26 | frequency = 70 / 9818
+Rank 00070 - Mouth - Mï¿½nage ï¿½ neuf | rarity score = 140.26 | frequency = 70 / 9818
 Rank 00071 - Head - Toxic Techno Granny | rarity score = 140.26 | frequency = 70 / 9818
 Rank 00072 - Head - Saudi People | rarity score = 136.36 | frequency = 72 / 9818
 Rank 00073 - Head - Abracadabrugged | rarity score = 136.36 | frequency = 72 / 9818
